@@ -1,0 +1,30 @@
+
+
+//class
+ 
+
+public class Groups
+{
+	@Test(groups="Sanity")
+	public void grouptest()
+	{
+		System.out.println("GroupTest run")
+	}
+
+}
+
+*********************
+//XML file
+
+<suite name="Suite ">
+<groups>
+	<run>
+		<include name="Sanity"/>
+      </run>
+</groups>
+<test>
+	<classes>
+		<class name=packagename.Groups/>
+	</classes>
+</test>
+</suite>
