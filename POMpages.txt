@@ -1,0 +1,67 @@
+Admin@Super MINGW64
+$ git clone POM
+-----------
+Admin@Super MINGW64 ~/OneDrive/Desktop
+$ cd POM
+------------
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+$ git status      >>>to know current status of files contains
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+------------
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+$ git ls        >>>to know contains file
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+        lfs
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+$ ^C
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+$ git branch POMpage1
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+$ git checkout POMpage1          >>>>switch to branch
+Switched to branch 'POMpage1'
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (POMpage1)
+$ git status        >>>>gives branch and files whether to commit
+On branch POMpage1
+nothing to commit, working tree clean
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (POMpage1)
+$ ls			>>>>shows files contains() 
+README.md
+
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (POMpage1)
+$ cat README.md   >>>>file containt(not folder)
+# POM
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (POMpage1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (main)
+$ git checkout -b POMpage2     >>>>create and switch on branch
+Switched to a new branch 'POMpage2'
+
+Admin@Super MINGW64 ~/OneDrive/Desktop/POM (POMpage2)
+$ ls
+README.md
+
